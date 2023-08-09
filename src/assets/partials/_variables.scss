@@ -1,5 +1,6 @@
 //font
 @import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,600;0,700;1,600&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
 
 // Variables
 $green1: #456950;
@@ -27,6 +28,8 @@ $orange1: rgb(216, 135, 29);
 
 $bodyFont: "Roboto", sans-serif;
 $titleFont: "Kodchasan", sans-serif;
+
+$textHero: 'Allan', cursive;
 
 $fontSize: 1em;
 $marginGrid: 0.625em;

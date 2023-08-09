@@ -1,0 +1,46 @@
+@import "variables";
+
+.hero {
+
+    height: 60vh;
+    background-image: url('./../../../../assets/img/dufort-hero2.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include mobileFirst(sm) {
+        align-items: flex-start;
+    }
+
+    &__text {
+        margin-top: 10px;
+        color: yellow;
+        background-color: rgba(0, 0, 0, 0.411);
+        padding: 2rem;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        flex-direction: column;
+
+        h1 {
+            font-family: $textHero;
+            font-size: 3rem;
+
+            @include mobileFirst(sm) {
+                font-size: 4rem;
+            }
+
+        }
+
+        p {
+            font-family: $textHero;
+            font-size: 2rem;
+        }
+    }
+}
