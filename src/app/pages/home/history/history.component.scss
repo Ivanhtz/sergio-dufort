@@ -1,0 +1,42 @@
+@import "variables";
+
+.history {
+
+    background-color: #D8242D;
+    padding-bottom: 60px;
+
+    &__title {
+        text-align: center;
+        margin: 0;
+        padding: 37px;
+        color: $orange1;
+
+        @include mobileFirst(Laptop) {
+            font-size: 2rem;
+        }
+    }
+
+    &__card {
+        margin: 0 auto;
+        max-width: 650px;
+        background-color: rgba(7, 7, 7, 0.96);
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        box-shadow: 5px 5px 5px black;
+        color: rgb(186, 185, 185);
+
+        @include mobileFirst(Laptop) {
+            flex-direction: row;
+        }
+
+        .history__card--image {
+            border-radius: 20px;
+            overflow: hidden;
+        }
+    }
+}

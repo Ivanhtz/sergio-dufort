@@ -4,12 +4,16 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { HeroComponent } from './hero/hero.component';
+import { HistoryComponent } from './history/history.component';
+import { ProductsComponent } from './products/products.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    HeroComponent
+    HeroComponent,
+    HistoryComponent,
+    ProductsComponent
   ],
   imports: [
     CommonModule,
