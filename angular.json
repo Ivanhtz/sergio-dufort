@@ -32,6 +32,11 @@
             "styles": [
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "./src/assets/partials"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -100,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b446b690-b3d0-4827-b953-74965747b55a"
   }
 }
