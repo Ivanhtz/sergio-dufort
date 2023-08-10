@@ -81,6 +81,7 @@ h6 {
     font-weight: 600;
     background: $brown4;
     border: 1px solid $black;
+    cursor: pointer;
 
     @include mobileFirst(Laptop) {
         &:hover {
