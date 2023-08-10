@@ -1,0 +1,30 @@
+@import "variables";
+
+.contact {
+
+    background-color: black;
+    padding-bottom: 60px;
+
+    &__title {
+
+        text-align: center;
+        margin: 0;
+        padding: 37px;
+        margin-bottom: 20px;
+        color: $orange1;
+
+        @include mobileFirst(Laptop) {
+            font-size: 2rem;
+        }
+    }
+
+    h3 {
+        color: $orange1;
+        text-align: center;
+    }
+
+    .icon {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}

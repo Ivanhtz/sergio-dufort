@@ -1,0 +1,56 @@
+@import "variables";
+
+.gallery {
+
+    background-color: #D8242D;
+    padding-bottom: 60px;
+
+    &__title {
+        text-align: center;
+        margin: 0;
+        padding: 37px;
+        color: $orange1;
+
+        @include mobileFirst(Laptop) {
+            font-size: 2rem;
+        }
+    }
+
+    .photos {
+        display: flex;
+        width: 280px;
+        height: 430px;
+        margin: 0 auto;
+
+        @include mobileFirst(xs) {
+            width: 340px;
+        }
+
+        @include mobileFirst(sm) {
+            width: 450px;
+        }
+
+        @include mobileFirst(photo) {
+            width: 600px;
+        }
+
+        @include mobileFirst(Laptop) {
+            width: 750px;
+        }
+
+        img {
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;
+        }
+
+        img:hover {
+            cursor: crosshair;
+            width: 300px;
+            opacity: 1;
+            filter: contrast(120%);
+        }
+    }
+}
