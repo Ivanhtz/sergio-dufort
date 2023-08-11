@@ -26,6 +26,20 @@
         .header__social--youtube,
         .header__social--instagram {
             width: 30px;
+            transition: all .4s ease;
+        }
+
+        .header__social--youtube:hover {
+            background-color: red;
+            border-radius: 10px;
+        }
+
+        .header__social--instagram:hover {
+            background-color: #E1306C;
+            border-radius: 10px;
         }
     }
+
+
+
 }
