@@ -1,0 +1,12 @@
+@import "variables";
+
+.notFound {
+    min-height: 100vh;
+    text-align: center;
+
+    &__title {
+        padding: 20px;
+    }
+
+
+}
